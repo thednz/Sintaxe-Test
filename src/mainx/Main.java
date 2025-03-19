@@ -9,16 +9,12 @@ public class Main {
 		System.out.println("correct this afirmative "+ b);
 		System.out.println("correct this afirmative "+ !b);
 		
-		if (a == 5) {
-			System.out.println("around want to going ");
-		}else {
-			System.out.println("o baby "+ a++);
-		}
+		// fix the problem
 		
-		if (a == 4) {
-			System.out.println("around want to going ");
+		if(a == 4) {
+			System.out.println("Good Job");
 		}else {
-			System.out.println("o baby "+ ++a);
+			System.out.println("Bad Job Bro !!!");
 		}
 		
 		
