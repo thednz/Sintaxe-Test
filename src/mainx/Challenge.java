@@ -11,10 +11,10 @@ public class Challenge {
 		float showIdealSalary = salary * (percentage / 100);
 		System.out.println("this is salary to have 30% " + showIdealSalary);
 		
-		float showIdealSalary15 = showIdealSalary * 15.0f / 100;
-		System.out.println("this is salary to have 15% " + showIdealSalary);
+		float showIdealSalary15 = showIdealSalary * 00.15f;
+		System.out.println("this is salary to have 15% " + showIdealSalary15);
 		
-		float showIdealSalary5 = showIdealSalary * 5.0f / 100;
+		float showIdealSalary5 = showIdealSalary * 0.05F;
 		System.out.println("this is salary to have 5% " + showIdealSalary5);
 		
 
